@@ -13,7 +13,6 @@ export default function ViteSourceMapCleanup() {
       if (config.command === 'build') {
         rimraf(`${config.build.outDir}/**/*.js.map`, err => {
           if (err) throw err
-          console.log('done')
         })
       }
     },

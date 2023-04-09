@@ -1,6 +1,6 @@
 {
   "name": "vite-source-map-cleanup",
-  "version": "0.0.0-bate.2",
+  "version": "0.0.1",
   "description": "This plugin searches the build output directory for *.js.map and *.css.map files to delete. It also removes the sourceMap comment found in any .js files.",
   "scripts": {
     "build": "rimraf es && rimraf lib && rollup -c"
